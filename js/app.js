@@ -1,1 +1,4 @@
-console.log('I am running!');
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+        .register("/sw.js")
+    }
